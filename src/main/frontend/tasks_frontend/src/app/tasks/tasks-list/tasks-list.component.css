@@ -1,0 +1,9 @@
+span.label {
+    float: right;
+    margin: 10px;
+    background-color: cadetblue;
+}
+span.badge {
+    float: right;
+    margin: 10px;
+}
