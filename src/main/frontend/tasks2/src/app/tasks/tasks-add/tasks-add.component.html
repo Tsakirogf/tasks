@@ -1,0 +1,13 @@
+<div class="form-group">
+    <input type="text"
+    float="float left"
+    class="form-control"
+    placeholder="Add new Task"
+    (keyup.enter)="onTaskAdd($event)"
+    [(ngModel)]="addTaskValue"/>
+    <br>
+    <div>
+        <button type="save-button" class="btn btn-dark" onclick="saveTask()" style="float: left">Save</button>
+        <app-task-datepicker style="float: right"></app-task-datepicker>
+    </div>
+</div>
